@@ -8,6 +8,7 @@ from django.contrib.auth import logout
 from django.contrib import messages
 from datetime import datetime
 
+import requests
 from django.http import JsonResponse
 from django.contrib.auth import login, authenticate
 import logging
